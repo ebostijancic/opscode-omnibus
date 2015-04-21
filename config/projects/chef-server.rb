@@ -33,7 +33,6 @@ override :rabbitmq, version: "3.3.4"
 override :erlang, version: "R16B03-1"
 override :ruby, version: "2.1.4"
 override :'chef-gem', version: "12.0.3"
-override :'server-jre', version: "7u25"
 
 # creates required build directories
 dependency "preparation"
